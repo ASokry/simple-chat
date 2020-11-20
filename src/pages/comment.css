@@ -1,0 +1,61 @@
+/* html, body {
+  height: 100%;
+} */
+
+.app {
+  margin: 0;
+  padding: 0;
+  /* height: 100%; */
+}
+
+.comment-box {
+  height: 850px;
+  width: auto;
+  overflow: auto;
+  /* text-align: center; */
+  background-color: rgb(255,240,125);
+}
+
+.comment {
+  border: solid #2222;
+  border-radius: 20px;
+  margin: 1em 25%;
+  background-color: rgb(252,245,235);
+}
+
+.comment h1 {
+  margin: 0 5px;
+  padding: 0;
+}
+
+.comment h3 {
+  text-align: right;
+  margin: 0 5px 5px;
+  padding: 0;
+}
+
+.input-field {
+  border: solid;
+  width: 100%;
+  position:fixed;
+  bottom:0;
+  padding-bottom: 1em;
+}
+
+.input-field Button {
+  margin-left: 50%;
+  float: left;
+}
+
+@media only screen and (max-width: 600px) {
+  .comment-box {
+    height: 740px;
+  }
+  .comment {
+    margin: 1em 10%;
+  }
+  .input-field Button {
+    margin-left: 40%;
+    float: left;
+  }
+}
