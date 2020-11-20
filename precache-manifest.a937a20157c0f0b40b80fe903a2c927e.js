@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/simple-chat/static/js/2.b5f783d6.chunk.js"
   },
   {
-    "revision": "5ff34ead064a6cb27084ae53d207bf5c",
+    "revision": "e9704617b042cc54b8361ca7441adbf2",
     "url": "/simple-chat/index.html"
   }
 ];
